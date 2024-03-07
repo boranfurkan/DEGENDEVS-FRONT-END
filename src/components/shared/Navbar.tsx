@@ -40,10 +40,10 @@ const Navbar = () => {
       <div className="absolute inset-0 w-full h-max top-[0.7rem]">
         <nav
           ref={navRef}
-          className="flex items-center justify-center gap-6 text-white relative cursor-pointer"
+          className="flex items-center justify-center gap-6 text-white relative"
         >
           <div
-            className="absolute inset-0 -top-1 bg-white bg-opacity-30 rounded-full h-8 w-0"
+            className="absolute inset-0 -top-1 bg-white bg-opacity-30 rounded-full h-8 w-0 cursor-pointer"
             style={indicatorStyle}
           ></div>
           {NavbarItems.map((item, index) => {
