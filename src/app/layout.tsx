@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
-import IntroSection from "@/components/shared/bg-animation/IntroSection";
+import IntroSection from "@/components/shared/intro-section/IntroSection";
 
 const roboto = Roboto({
   subsets: ["latin"],
