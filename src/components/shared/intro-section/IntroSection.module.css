@@ -1,0 +1,112 @@
+.bgAnimationColor {
+  background: rgb(255, 74, 29);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 74, 29, 1) 0%,
+    rgba(244, 140, 6, 1) 100%
+  );
+}
+
+@keyframes movePath1 {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(300px, -300px) rotate(45deg);
+  }
+  50% {
+    transform: translate(-300px, 300px) rotate(90deg);
+  }
+  75% {
+    transform: translate(300px, -300px) rotate(135deg);
+  }
+}
+
+@keyframes movePath2 {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(-400px, 200px) rotate(-45deg);
+  }
+  50% {
+    transform: translate(400px, -400px) rotate(-90deg);
+  }
+  75% {
+    transform: translate(-400px, 200px) rotate(-135deg);
+  }
+}
+
+@keyframes movePath3 {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  20% {
+    transform: translate(500px, 0px) rotate(60deg);
+  }
+  40% {
+    transform: translate(-500px, -250px) rotate(120deg);
+  }
+  60% {
+    transform: translate(500px, 500px) rotate(180deg);
+  }
+  80% {
+    transform: translate(-500px, 0px) rotate(240deg);
+  }
+}
+
+@keyframes colorChange {
+  0%,
+  100% {
+    background-color: #ff4a1d; /* Starting and ending with your primary-200 color */
+  }
+  25% {
+    background-color: #ff5733; /* A bit darker, to keep the warmth without going too light */
+  }
+  50% {
+    background-color: #ff704d; /* Still in the warm spectrum but avoiding high brightness */
+  }
+  75% {
+    background-color: #ff5733; /* Returning to the slightly darker tone */
+  }
+}
+/* Apply Animations to Bubbles */
+
+.animation1 {
+  animation: movePath1 20s infinite linear, colorChange 10s infinite linear;
+}
+
+.animation2 {
+  animation: movePath2 20s infinite linear, colorChange 10s infinite linear;
+}
+
+.animation3 {
+  animation: movePath3 20s infinite linear, colorChange 10s infinite linear;
+}
+
+.bigBubble {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  filter: blur(70px);
+  opacity: 0.4;
+}
+
+.glass {
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 20px;
+
+  background: rgba(255, 255, 255, 0.2);
+
+  /* Frosted Glass Effect */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
