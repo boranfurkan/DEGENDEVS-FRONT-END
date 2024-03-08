@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
-import IntroSection from "@/components/shared/intro-section/IntroSection";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -20,10 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className}`}>
-        <IntroSection />
-        <div className="px-10 py-5">{children}</div>
-      </body>
+      <body className={`${roboto.className} text-white`}>{children}</body>
     </html>
   );
 }
