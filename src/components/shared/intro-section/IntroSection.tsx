@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import styles from "./IntroSection.module.css";
 import Navbar from "../Navbar";
@@ -5,6 +6,7 @@ import HeroText from "./HeroText";
 import HeroIcons from "./HeroIcons";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const IntroSection = () => {
   return (
@@ -26,28 +28,49 @@ const IntroSection = () => {
               <HeroIcons />
             </div>
           </div>
-          <div className="mt-5 flex flex-col items-center gap-5">
-            <p className="text-xl font-semibold leading-[30px] tracking-normal text-center">
+          <motion.div
+            className="mt-5 flex flex-col items-center gap-5"
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2 }}
+          >
+            <motion.p
+              className="text-xl font-semibold leading-[30px] tracking-normal text-center"
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7 }}
+            >
               We are a tech development business that has vast experience across{" "}
               <br />
               several blockchains, bringing your ideas to life!
-            </p>
-            <Link
-              href="/"
-              className="bg-primary-400 bg-opacity-50 text-white font-semibold text-lg rounded-md px-6 py-2"
+            </motion.p>
+            <Link href="/">
+              <motion.div
+                className="bg-primary-400 bg-opacity-50 text-white font-semibold text-lg rounded-md px-6 py-2"
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.9 }}
+              >
+                Start Your Development Here
+              </motion.div>
+            </Link>
+            <motion.div
+              className="mt-4"
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.1 }}
             >
-              Start Your Development Here
-            </Link>
-            <Link href="/" className="mt-4">
-              <Image
-                src="/icons/arrow-down.svg"
-                width={50}
-                height={50}
-                alt="arrow"
-                className="animate-bounce"
-              />
-            </Link>
-          </div>
+              <Link href="/">
+                <Image
+                  src="/icons/arrow-down.svg"
+                  width={50}
+                  height={50}
+                  alt="arrow"
+                  className="animate-bounce"
+                />
+              </Link>
+            </motion.div>
+          </motion.div>
         </div>
       </div>
     </div>
