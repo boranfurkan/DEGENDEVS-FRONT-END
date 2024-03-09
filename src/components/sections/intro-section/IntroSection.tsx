@@ -17,12 +17,11 @@ const IntroSection = () => {
         <div className={`${styles.bigBubble} ${styles.animation1}`}></div>
         <div className={`${styles.bigBubble} ${styles.animation2}`}></div>
         <div className={`${styles.bigBubble} ${styles.animation3}`}></div>
-        {/* Add more bubbles with different classes for varied animations */}
       </div>
       <div className="w-full h-full">
         <div className={`${styles.glass} w-full h-full flex flex-col gap-16`}>
           <Navbar />
-          <div className="flex items-center justify-between px-16">
+          <div className="flex items-center justify-center gap-16">
             <HeroText />
             <div className="min-w-[400px]">
               <HeroIcons />
