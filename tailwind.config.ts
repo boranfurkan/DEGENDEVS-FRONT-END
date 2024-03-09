@@ -17,6 +17,7 @@ const config: Config = {
         },
         "muted-grey": "#717171",
         cream: "#FFE5DE",
+        brown: "#292019",
       },
     },
   },
