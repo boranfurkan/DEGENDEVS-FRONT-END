@@ -21,11 +21,9 @@ const IntroSection = () => {
       <div className="w-full h-full">
         <div className={`${styles.glass} w-full h-full flex flex-col gap-16`}>
           <Navbar />
-          <div className="flex items-center justify-center gap-16">
+          <div className="flex items-center justify-center gap-28">
             <HeroText />
-            <div className="min-w-[400px]">
-              <HeroIcons />
-            </div>
+            <HeroIcons />
           </div>
           <motion.div
             className="mt-5 flex flex-col items-center gap-5"
@@ -66,6 +64,7 @@ const IntroSection = () => {
                   height={50}
                   alt="arrow"
                   className="animate-bounce"
+                  style={{ animationDuration: "1.1s" }}
                 />
               </Link>
             </motion.div>
