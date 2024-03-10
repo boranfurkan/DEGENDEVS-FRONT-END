@@ -19,16 +19,6 @@ const Work = () => {
     },
   };
 
-  // Directly animate using the animate prop for a smoother, continuous effect
-  const floatAnimation = {
-    y: [0, 0, 0],
-    transition: {
-      repeat: Infinity,
-      duration: 5,
-      ease: "easeInOut",
-    },
-  };
-
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.5,
@@ -41,10 +31,9 @@ const Work = () => {
 
   return (
     <div className="flex flex-col gap-48 min-w-[1272px]">
-      <motion.div
+      <div
         className="p-[50px] pr-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040]"
         ref={ref}
-        animate={floatAnimation}
       >
         <h3 className="text-5xl font-bold leading-[60px] tracking-normal text-left text-primary-200">
           Why choose us?
@@ -68,11 +57,10 @@ const Work = () => {
             quality={100}
           />
         </motion.div>
-      </motion.div>
-      <motion.div
+      </div>
+      <div
         className="p-[50px] pl-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040] self-end"
         ref={ref2}
-        animate={floatAnimation}
       >
         <h3 className="text-5xl font-bold leading-[60px] tracking-normal text-left text-primary-200">
           Best team for you!
@@ -96,7 +84,7 @@ const Work = () => {
             quality={100}
           />
         </motion.div>
-      </motion.div>
+      </div>
     </div>
   );
 };
