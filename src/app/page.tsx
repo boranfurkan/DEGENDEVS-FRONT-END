@@ -9,7 +9,7 @@ export default function Home() {
       <section id="welcome">
         <IntroSection />
       </section>
-      <div className="px-[7.5rem] py-12 flex flex-col gap-52">
+      <div className="px-[7.5rem] py-12 flex flex-col gap-44">
         <section id="about" className="mx-auto">
           <About />
         </section>
