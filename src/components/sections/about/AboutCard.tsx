@@ -48,7 +48,9 @@ const AboutCard = ({
       </div>
       <p className="text-xl font-medium leading-[30px] tracking-normal text-center text-brown">
         {content.split("\n").map((line, index) => (
-          <p key={index}>{line}</p>
+          <span className="block" key={index}>
+            {line}
+          </span>
         ))}
       </p>
     </div>

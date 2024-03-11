@@ -28,13 +28,13 @@ export const AboutCardsContent = [
     headingNumber: 18,
     subtitle: "Developers",
     content:
-      "In our team we have 14 full-\nstack developers, and we\n continue to expand",
+      "In our team we have 18 full-\nstack developers, and we\n continue to expand.",
   },
   {
-    headingNumber: 10,
+    headingNumber: 20,
     subtitle: "Programming Languages",
     content:
-      "Our team works with: C#, C++,\n Java, PHP, Kotlin, Swift, Python,\n Go, Rust, Ruby, and lots more of\n them...",
+      "Our team works with: C#, C++,\n Java, PHP, React, Swift, Python,\n Go, Rust, Ruby, and lots more of\n them...",
   },
   {
     headingNumber: 1000,

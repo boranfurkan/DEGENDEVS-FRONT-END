@@ -30,7 +30,7 @@ const Work = () => {
   });
 
   return (
-    <div className="flex flex-col gap-48 min-w-[1272px]">
+    <div className="flex flex-col gap-48">
       <div
         className="p-[50px] pr-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040]"
         ref={ref}
