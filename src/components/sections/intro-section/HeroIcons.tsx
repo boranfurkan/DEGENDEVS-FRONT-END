@@ -1,6 +1,5 @@
 "use client";
-import React from "react";
-import Hero from "../../../../public/assets/lootie/hero.json";
+import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 
 const PlayerWithNoSSR = dynamic(
@@ -15,6 +14,7 @@ const HeroIcons = () => {
       <PlayerWithNoSSR
         autoplay
         keepLastFrame
+        speed={1}
         loop
         src={"/assets/lootie/hero.json"}
       />

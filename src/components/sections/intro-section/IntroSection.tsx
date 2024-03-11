@@ -7,6 +7,7 @@ import HeroIcons from "./HeroIcons";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import CryptoSlider from "./CryptoSlider";
 
 const IntroSection = () => {
   return (
@@ -68,6 +69,7 @@ const IntroSection = () => {
                 />
               </Link>
             </motion.div>
+            <CryptoSlider />
           </motion.div>
         </div>
       </div>
