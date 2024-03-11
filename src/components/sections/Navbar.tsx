@@ -36,7 +36,7 @@ const Navbar = () => {
   }, [activeSection]);
 
   return (
-    <div className="mockup-window bg-cream bg-opacity-40 w-full h-max relative">
+    <div className="mockup-window w-full h-max relative glass">
       <div className="absolute inset-0 w-full h-max top-[0.7rem]">
         <nav
           ref={navRef}

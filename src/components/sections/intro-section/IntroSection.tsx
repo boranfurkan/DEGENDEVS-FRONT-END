@@ -14,13 +14,13 @@ const IntroSection = () => {
     <div
       className={`h-screen w-full px-10 py-5 relative ${styles.bgAnimationColor} overflow-hidden`}
     >
-      <div className="absolute inline-flex flex-row inset-0 justify-center items-center space-x-4 top-[50px]">
+      <div className="absolute inline-flex flex-row inset-0 justify-center items-center space-x-4 top-[50px] z-0">
         <div className={`${styles.bigBubble} ${styles.animation1}`}></div>
         <div className={`${styles.bigBubble} ${styles.animation2}`}></div>
         <div className={`${styles.bigBubble} ${styles.animation3}`}></div>
       </div>
-      <div className="w-full h-full">
-        <div className={`${styles.glass} w-full h-full flex flex-col gap-16`}>
+      <div className="relative z-10 w-full h-full">
+        <div className={`w-full h-full flex flex-col gap-24 z-10`}>
           <Navbar />
           <div className="flex items-center justify-center gap-28">
             <HeroText />
@@ -58,18 +58,8 @@ const IntroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.1 }}
             >
-              <Link href="/">
-                <Image
-                  src="/icons/arrow-down.svg"
-                  width={50}
-                  height={50}
-                  alt="arrow"
-                  className="animate-bounce"
-                  style={{ animationDuration: "1.1s" }}
-                />
-              </Link>
+              <CryptoSlider />
             </motion.div>
-            <CryptoSlider />
           </motion.div>
         </div>
       </div>
