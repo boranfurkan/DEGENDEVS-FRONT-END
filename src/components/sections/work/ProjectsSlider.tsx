@@ -41,7 +41,7 @@ export default function ProjectsSlider() {
             disableOnInteraction: true,
           }}
         >
-          <SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
                 src="/assets/sample.png"
@@ -62,7 +62,7 @@ export default function ProjectsSlider() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
                 src="/assets/sample2.png"
@@ -83,7 +83,7 @@ export default function ProjectsSlider() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
                 src="/assets/sample.png"
@@ -104,7 +104,7 @@ export default function ProjectsSlider() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
                 src="/assets/sample2.png"
@@ -125,7 +125,7 @@ export default function ProjectsSlider() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
                 src="/assets/sample.png"
@@ -146,7 +146,7 @@ export default function ProjectsSlider() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
                 src="/assets/sample2.png"
@@ -167,7 +167,7 @@ export default function ProjectsSlider() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
                 src="/assets/sample.png"
@@ -188,7 +188,7 @@ export default function ProjectsSlider() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
                 src="/assets/sample2.png"
@@ -209,7 +209,7 @@ export default function ProjectsSlider() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
                 src="/assets/sample.png"

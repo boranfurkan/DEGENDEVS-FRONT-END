@@ -99,7 +99,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .overlay-text {
