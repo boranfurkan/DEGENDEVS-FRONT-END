@@ -46,7 +46,7 @@ const HowItWorks = () => {
     onscreen: {
       opacity: 1,
       rotate: [0, 0, 20, -20, 0],
-      transition: { duration: 2, repeat: 1, delay: 0.1 },
+      transition: { ease: "easeInOut", duration: 2, delay: 0 },
     },
   };
 
@@ -57,7 +57,7 @@ const HowItWorks = () => {
     onscreen: {
       opacity: 1,
       rotate: 360,
-      transition: { ease: "linear", duration: 2, delay: 1.3 },
+      transition: { ease: "easeInOut", duration: 3 },
     },
   };
 
@@ -68,7 +68,7 @@ const HowItWorks = () => {
     onscreen: {
       opacity: 1,
       rotate: [0, -10, 10, -10, 0],
-      transition: { duration: 2, delay: 2.5 },
+      transition: { ease: "easeInOut", duration: 3.5, delay: 0.5 },
     },
   };
 
@@ -123,7 +123,7 @@ const HowItWorks = () => {
             className="px-10 py-5 rounded-[60px] flex flex-col gap-1 bg-primary-300 relative"
             initial="offscreen"
             animate={inView ? "onscreen" : "offscreen"}
-            variants={getDivVariantWithDelay(1)}
+            variants={getDivVariantWithDelay(0.8)}
           >
             <h2 className="text-5xl font-bold leading-[60px] tracking-normal text-left">
               2. Iterate
@@ -151,7 +151,7 @@ const HowItWorks = () => {
             className="px-10 py-5 rounded-[60px] flex flex-col gap-1 bg-primary-300 relative"
             initial="offscreen"
             animate={inView ? "onscreen" : "offscreen"}
-            variants={getDivVariantWithDelay(2)}
+            variants={getDivVariantWithDelay(1.6)}
           >
             <h2 className="text-5xl font-bold leading-[60px] tracking-normal text-left">
               3. Launch
