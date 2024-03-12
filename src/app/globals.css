@@ -43,6 +43,66 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.deneme > svg > g > image {
-  scale: 1.4;
+.glass-lg {
+  box-sizing: border-box;
+  background: rgba(224, 116, 15, 0.5);
+  /* Frosted Glass Effect */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.swiper {
+  width: 1000px;
+  height: 563px;
+  margin: 0 !important;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ff4a1d !important;
+}
+
+.image-container {
+  position: relative;
+  width: 100%; /* Adjust based on your needs */
+  height: 100%; /* Adjust based on your needs */
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 1));
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+.overlay-text {
+  color: white;
+  /* Style your text as needed */
 }
