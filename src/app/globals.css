@@ -54,8 +54,8 @@ body {
 }
 
 .swiper {
-  width: 1000px;
-  height: 563px;
+  width: 950px;
+  height: 534px;
   margin: 0 !important;
 }
 
@@ -105,4 +105,13 @@ body {
 .overlay-text {
   color: white;
   /* Style your text as needed */
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }

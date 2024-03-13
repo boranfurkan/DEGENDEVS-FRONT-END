@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import styles from "./IntroSection.module.css";
-import Navbar from "../Navbar";
+import Navbar from "../../Navbar";
 import HeroText from "./HeroText";
 import HeroIcons from "./HeroIcons";
 import Link from "next/link";
