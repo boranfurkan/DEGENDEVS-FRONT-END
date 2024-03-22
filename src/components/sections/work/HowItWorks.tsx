@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
+import DocumentAnimation from "./DocumentAnimation";
 
 const PlayerWithNoSSR = dynamic(
   () =>
@@ -83,13 +84,7 @@ const HowItWorks = () => {
         How it works?
       </h3>
       <div className="flex flex-row gap-24 items-center justify-between">
-        <Image
-          src="/assets/placeholder.png"
-          width={620}
-          height={700}
-          quality={100}
-          alt="line"
-        />
+        <DocumentAnimation />
         <div className="flex flex-col gap-10" ref={ref}>
           <motion.div
             className="px-10 py-5 rounded-[60px] flex flex-col gap-1 bg-primary-300 relative"
