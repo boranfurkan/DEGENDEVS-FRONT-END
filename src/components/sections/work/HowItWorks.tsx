@@ -85,7 +85,7 @@ const HowItWorks = () => {
       </h3>
       <div className="flex flex-row gap-24 items-center justify-between">
         <DocumentAnimation />
-        <div className="flex flex-col gap-10" ref={ref}>
+        <div className="flex flex-col gap-14" ref={ref}>
           <motion.div
             className="px-10 py-5 rounded-[60px] flex flex-col gap-1 bg-primary-300 relative"
             initial="offscreen"
@@ -125,7 +125,7 @@ const HowItWorks = () => {
             </h2>
             <p className="text-xl font-medium leading-[30px] tracking-normal text-left">
               Dive into the design phase and refine through unlimited revisions
-              until perfection.
+              until perfection. We make sure you are 100% satisfied.
             </p>
             <motion.div
               initial="offscreen"

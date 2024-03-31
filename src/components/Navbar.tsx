@@ -51,8 +51,8 @@ const Navbar = () => {
       const sectionHeight = section.offsetHeight;
 
       if (
-        scrollTop >= sectionTop - 30 &&
-        scrollTop < sectionTop + sectionHeight - 30
+        scrollTop >= sectionTop - 100 &&
+        scrollTop < sectionTop + sectionHeight - 100
       ) {
         setActiveSection(section.id);
       }
@@ -125,7 +125,6 @@ const Navbar = () => {
                 href={`#${item.section}`}
                 key={index}
                 data-section={item.section}
-                onClick={() => setActiveSection(item.section)}
                 className={`text-white transition-colors duration-300 ease-in-out text-base font-semibold tracking-normal cursor-pointer ${
                   activeSection !== item.section && "hover-effect"
                 }`}

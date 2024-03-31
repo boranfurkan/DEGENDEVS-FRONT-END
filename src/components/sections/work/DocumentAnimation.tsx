@@ -10,13 +10,13 @@ const PlayerWithNoSSR = dynamic(
 
 const DocumentAnimation = () => {
   return (
-    <div className="w-[300px] h-[300px] 2xl:w-[375px] 2xl:h-[375px]">
+    <div>
       <PlayerWithNoSSR
         autoplay
         keepLastFrame
         speed={1}
-        loop
         src={"/assets/lootie/document.json"}
+        className="w-[450px] h-[450px] 2xl:w-[500px] 2xl:h-[500px]"
       />
     </div>
   );
