@@ -7,7 +7,7 @@ const CryptoSlider = () => {
     <div className="flex flex-row gap-3">
       <motion.img
         className="fade-in"
-        src="/icons/bitcoin.svg"
+        src="/icons/sol.png"
         width={50}
         height={50}
         alt="Bitcoin"
@@ -24,6 +24,16 @@ const CryptoSlider = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 3 }}
+      />
+      <motion.img
+        className="fade-in"
+        src="/icons/bitcoin.svg"
+        width={50}
+        height={50}
+        alt="Bitcoin"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0, duration: 3 }}
       />
       <motion.img
         className="fade-in"
