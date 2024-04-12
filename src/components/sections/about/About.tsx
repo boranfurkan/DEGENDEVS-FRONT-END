@@ -59,10 +59,9 @@ const About = () => {
             transition={{ duration: 0.7 }}
           >
             <span className="text-xl font-medium leading-9 tracking-normal">
-              Whether you have a new venture, a <br />
-              pivot, or elevating your brand, you need <br />a design that
-              speaks volumes, without
-              <br /> draining your resources.
+              We are a one stop shop for all your WEB3 <br /> Development needs.
+              There isn’t a <br /> task we can’t take on. We are <br /> a team
+              of experts.
             </span>
           </motion.div>
           <motion.div

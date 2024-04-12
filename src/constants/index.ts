@@ -22,7 +22,7 @@ export const AboutCardsContent = [
     headingNumber: 1500,
     subtitle: "Finished Projects",
     content:
-      "Our team works starting 2016 and growing year by year.\n Our team has finished already more than 1,500\n projects.",
+      "DegenDevs was first established in 2020, completing \n over 250 products since launch. Variety of clients,\n from small startups to large corporations.",
   },
   {
     headingNumber: 18,
@@ -37,10 +37,10 @@ export const AboutCardsContent = [
       "Our team works with: C#, C++,\n Java, PHP, React, Swift, Python,\n Go, Rust, Ruby, and lots more of\n them...",
   },
   {
-    headingNumber: 1000,
+    headingNumber: 100,
     subtitle: "Happy Clients",
     content:
-      "We have more than 1,000 happy clients. We\n are proud of our work and our clients are\n proud of us. ",
+      "We have more than 100 happy clients. We\n are proud of our work and our clients are\n proud of us. ",
   },
 ];
 
