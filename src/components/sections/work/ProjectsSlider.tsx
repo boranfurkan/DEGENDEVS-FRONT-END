@@ -42,15 +42,98 @@ export default function ProjectsSlider() {
           }}
         >
           <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
-            <div className="image-container">
-              <Image
-                src="/assets/sample.png"
-                alt="Project Description"
-                layout="fill"
-                objectFit="cover"
-              />
+            <div className="h-full w-full">
+              <video
+                preload="none"
+                autoPlay
+                loop
+                muted={true}
+                playsInline
+                className="object-cover w-full h-full"
+                controls={false}
+              >
+                <source src="/assets/videos/swag-city.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
               <div className="overlay">
-                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200">
+                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
+                  THE SWAG CITY
+                </h3>
+                <p className="overlay-text">
+                  Our Art team designed the Swag City map along with the Swag
+                  City website and animations.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
+            <div className="h-full w-full">
+              <video
+                preload="none"
+                autoPlay
+                loop
+                muted={true}
+                playsInline
+                className="object-cover w-full h-full"
+                controls={false}
+              >
+                <source src="/assets/videos/swag-logo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="overlay">
+                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
+                  THE SWAG CITY
+                </h3>
+                <p className="overlay-text">
+                  Our Art team designed the Swag City map along with the Swag
+                  City website and animations.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
+            <div className="h-full w-full">
+              <video
+                preload="none"
+                autoPlay
+                loop
+                muted={true}
+                playsInline
+                className="object-cover w-full h-full"
+                controls={false}
+              >
+                <source src="/assets/videos/pl-map.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="overlay">
+                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
+                  Title of the project
+                </h3>
+                <p className="overlay-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                  nisi ea magni porro commodi praesentium ipsa distinctio sit
+                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
+                  numquam quos enim? Excepturi, doloremque.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
+            <div className="h-full w-full">
+              <video
+                preload="none"
+                autoPlay
+                loop
+                muted={true}
+                playsInline
+                className="object-cover w-full h-full"
+                controls={false}
+              >
+                <source src="/assets/videos/pl.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="overlay">
+                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
                   Title of the project
                 </h3>
                 <p className="overlay-text">
@@ -65,20 +148,18 @@ export default function ProjectsSlider() {
           <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
-                src="/assets/sample2.png"
+                src="/assets/projects/ctrl-homepage.png"
                 alt="Project Description"
                 layout="fill"
                 objectFit="cover"
               />
               <div className="overlay">
-                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200">
-                  Title of the project
+                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
+                  CTRL
                 </h3>
                 <p className="overlay-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  nisi ea magni porro commodi praesentium ipsa distinctio sit
-                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
-                  numquam quos enim? Excepturi, doloremque.
+                  We were involved in the Ui and Front End development of the
+                  CTRL Terminal for their website and Telegram bot.
                 </p>
               </div>
             </div>
@@ -86,20 +167,18 @@ export default function ProjectsSlider() {
           <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
-                src="/assets/sample.png"
+                src="/assets/projects/ctrl-mobile.png"
                 alt="Project Description"
                 layout="fill"
                 objectFit="cover"
               />
               <div className="overlay">
-                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200">
-                  Title of the project
+                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
+                  CTRL
                 </h3>
                 <p className="overlay-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  nisi ea magni porro commodi praesentium ipsa distinctio sit
-                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
-                  numquam quos enim? Excepturi, doloremque.
+                  We were involved in the Ui and Front End development of the
+                  CTRL Terminal for their website and Telegram bot.
                 </p>
               </div>
             </div>
@@ -107,125 +186,58 @@ export default function ProjectsSlider() {
           <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
-                src="/assets/sample2.png"
+                src="/assets/projects/injstaking.png"
                 alt="Project Description"
                 layout="fill"
                 objectFit="cover"
               />
               <div className="overlay">
-                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200">
-                  Title of the project
+                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
+                  INJSTAKING
                 </h3>
                 <p className="overlay-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  nisi ea magni porro commodi praesentium ipsa distinctio sit
-                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
-                  numquam quos enim? Excepturi, doloremque.
+                  Multi staking platform on the Injective Blockchain, full
+                  package from Ui to development by us.
                 </p>
               </div>
             </div>
           </SwiperSlide>
+
           <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
-                src="/assets/sample.png"
+                src="/assets/projects/injstaking-2.png"
                 alt="Project Description"
                 layout="fill"
                 objectFit="cover"
               />
               <div className="overlay">
-                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200">
-                  Title of the project
+                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
+                  INJSTAKING
                 </h3>
                 <p className="overlay-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  nisi ea magni porro commodi praesentium ipsa distinctio sit
-                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
-                  numquam quos enim? Excepturi, doloremque.
+                  Multi staking platform on the Injective Blockchain, full
+                  package from Ui to development by us.
                 </p>
               </div>
             </div>
           </SwiperSlide>
+
           <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
             <div className="image-container">
               <Image
-                src="/assets/sample2.png"
+                src="/assets/projects/injstaking-3.png"
                 alt="Project Description"
                 layout="fill"
                 objectFit="cover"
               />
               <div className="overlay">
-                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200">
-                  Title of the project
+                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
+                  INJSTAKING
                 </h3>
                 <p className="overlay-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  nisi ea magni porro commodi praesentium ipsa distinctio sit
-                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
-                  numquam quos enim? Excepturi, doloremque.
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
-            <div className="image-container">
-              <Image
-                src="/assets/sample.png"
-                alt="Project Description"
-                layout="fill"
-                objectFit="cover"
-              />
-              <div className="overlay">
-                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200">
-                  Title of the project
-                </h3>
-                <p className="overlay-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  nisi ea magni porro commodi praesentium ipsa distinctio sit
-                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
-                  numquam quos enim? Excepturi, doloremque.
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
-            <div className="image-container">
-              <Image
-                src="/assets/sample2.png"
-                alt="Project Description"
-                layout="fill"
-                objectFit="cover"
-              />
-              <div className="overlay">
-                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200">
-                  Title of the project
-                </h3>
-                <p className="overlay-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  nisi ea magni porro commodi praesentium ipsa distinctio sit
-                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
-                  numquam quos enim? Excepturi, doloremque.
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
-            <div className="image-container">
-              <Image
-                src="/assets/sample.png"
-                alt="Project Description"
-                layout="fill"
-                objectFit="cover"
-              />
-              <div className="overlay">
-                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200">
-                  Title of the project
-                </h3>
-                <p className="overlay-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  nisi ea magni porro commodi praesentium ipsa distinctio sit
-                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
-                  numquam quos enim? Excepturi, doloremque.
+                  Multi staking platform on the Injective Blockchain, full
+                  package from Ui to development by us.
                 </p>
               </div>
             </div>
