@@ -107,13 +107,12 @@ export default function ProjectsSlider() {
               </video>
               <div className="overlay">
                 <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
-                  Title of the project
+                  pioneer legends
                 </h3>
                 <p className="overlay-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  nisi ea magni porro commodi praesentium ipsa distinctio sit
-                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
-                  numquam quos enim? Excepturi, doloremque.
+                  Everything you see on Pioneer Legends we were involved in,
+                  from the art, front end development, back end development,
+                  smart contracts, audits
                 </p>
               </div>
             </div>
@@ -134,13 +133,12 @@ export default function ProjectsSlider() {
               </video>
               <div className="overlay">
                 <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
-                  Title of the project
+                  pioneer legends
                 </h3>
                 <p className="overlay-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  nisi ea magni porro commodi praesentium ipsa distinctio sit
-                  pariatur veritatis, corrupti ipsam magnam nemo voluptas
-                  numquam quos enim? Excepturi, doloremque.
+                  Everything you see on Pioneer Legends we were involved in,
+                  from the art, front end development, back end development,
+                  smart contracts, audits
                 </p>
               </div>
             </div>
