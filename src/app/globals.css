@@ -115,3 +115,9 @@ body {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+@media only screen and (max-width: 640px) {
+  .mockup-window::before {
+    all: unset !important;
+  }
+}
