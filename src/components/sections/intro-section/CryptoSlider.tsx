@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const CryptoSlider = () => {
   return (
-    <div className="flex flex-row gap-3">
+    <div className="flex flex-row gap-3 flex-wrap max-sm:items-center max-sm:justify-center">
       <motion.img
         className="fade-in"
         src="/icons/sol.png"
