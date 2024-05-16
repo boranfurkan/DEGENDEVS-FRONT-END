@@ -9,15 +9,18 @@ const Reviews = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     slidesPerRow: 1,
+    slidesToShow: 1,
     dots: true,
     className: "!w-full",
   };
+
   return (
-    <div className="flex flex-col gap-10 w-full">
+    <div className="flex flex-col gap-10 w-full max-sm:-mt-[10rem]">
       <h3 className="text-[64px] font-bold leading-[79px] tracking-normal text-center">
         What clients say about us
       </h3>
-      <Slider {...settings}>
+
+      <Slider {...settings} className="max-sm:hidden">
         <div className="!flex items-center justify-center gap-10 w-full">
           <ReviewCard {...ReviewsData[3]} borderType={"middle"} />
           <ReviewCard {...ReviewsData[0]} borderType={"middle"} />
@@ -30,6 +33,14 @@ const Reviews = () => {
           <ReviewCard {...ReviewsData[4]} borderType={"middle"} />
           <ReviewCard {...ReviewsData[5]} borderType={"middle"} />
         </div>
+      </Slider>
+
+      <Slider {...settings} className="sm:hidden">
+        <ReviewCard {...ReviewsData[3]} borderType={"middle"} />
+        <ReviewCard {...ReviewsData[0]} borderType={"middle"} />
+        <ReviewCard {...ReviewsData[2]} borderType={"middle"} />
+        <ReviewCard {...ReviewsData[4]} borderType={"middle"} />
+        <ReviewCard {...ReviewsData[5]} borderType={"middle"} />
       </Slider>
     </div>
   );
