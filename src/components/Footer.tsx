@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-20 max-sm:pt-5">
       <footer className="bg-[#992C11] text-white text-center w-full py-5 px-16">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between max-sm:flex-col max-sm:gap-7">
           <div className="flex items-center justify-start gap-4">
             <Image src="/logo.png" alt="logo" width={150} height={150} />
             <p className="text-xs font-normal leading-[18px] tracking-normal text-left max-w-72">
@@ -15,7 +15,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 max-sm:items-center max-sm:justify-center">
             <div className="flex items-center justify-start gap-4 w-max">
               <Link href="degendevs">
                 <Image
