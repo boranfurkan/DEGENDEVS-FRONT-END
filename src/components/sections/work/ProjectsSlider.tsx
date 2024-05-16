@@ -24,7 +24,7 @@ export default function ProjectsSlider() {
         Our Projects
       </h3>
       <motion.div
-        className="flex flex-col gap-10 items-center"
+        className="flex flex-col gap-10 items-center max-sm:-mt-[8rem]"
         ref={ref}
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
@@ -35,7 +35,7 @@ export default function ProjectsSlider() {
           grabCursor={true}
           navigation={true}
           modules={[Navigation, Autoplay, EffectCards]}
-          className="mySwiper"
+          className="mySwiper max-sm:scale-[0.36]"
           autoplay={{
             delay: 5000,
             disableOnInteraction: true,
