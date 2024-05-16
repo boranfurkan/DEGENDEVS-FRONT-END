@@ -12,7 +12,7 @@ import CryptoSlider from "./CryptoSlider";
 const IntroSection = () => {
   return (
     <div
-      className={`h-screen w-full px-10 py-5 relative ${styles.bgAnimationColor} overflow-hidden max-sm:px-4 max-sm:h-max`}
+      className={`h-screen w-full px-10 py-5 relative ${styles.bgAnimationColor} overflow-hidden max-sm:px-4 max-xl:h-max`}
     >
       <div className="absolute inline-flex flex-row inset-0 justify-center items-center space-x-4 top-[50px] z-0">
         <div className={`${styles.bigBubble} ${styles.animation1}`}></div>
