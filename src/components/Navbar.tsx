@@ -65,10 +65,9 @@ const Navbar = () => {
   };
 
   return isSticky ? (
-    <>
-      <div className="h-[48px] w-full"></div>
+    <div className="w-full fixed top-5 left-0 z-[99] flex items-center justify-center">
       <motion.div
-        className="mockup-window w-[50%] h-max glass-lg fixed top-5 left-[24rem] z-[99]"
+        className="mockup-window w-[50%] h-max glass-lg max-sm:w-[92%] max-sm:py-6"
         initial="hidden"
         animate="show"
         variants={navbarAnimation}
@@ -104,12 +103,12 @@ const Navbar = () => {
           alt="logo"
           width={60}
           height={30}
-          className="absolute right-3 top-0.5"
+          className="absolute right-3 top-0.5 max-sm:hidden"
         />
       </motion.div>
-    </>
+    </div>
   ) : (
-    <div className="mockup-window w-full h-max relative glass">
+    <div className="mockup-window w-full h-max relative glass max-sm:py-6">
       <div className="absolute inset-0 w-full h-max top-[0.7rem]">
         <nav
           ref={navRef}
@@ -140,7 +139,7 @@ const Navbar = () => {
         alt="logo"
         width={60}
         height={30}
-        className="absolute right-3 top-0.5"
+        className="absolute right-3 top-0.5 max-sm:hidden"
       />
     </div>
   );
