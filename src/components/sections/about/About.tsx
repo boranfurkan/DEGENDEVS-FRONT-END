@@ -65,7 +65,7 @@ const About = () => {
               of experts.
             </span>
 
-            <span className="text-xl font-medium leading-9 tracking-normal sm:block">
+            <span className="text-xl font-medium leading-9 tracking-normal max-sm:block hidden">
               We are a one stop shop for all your WEB3 Development needs. There
               isn’t a task we can’t take on. We are a team of experts.
             </span>
