@@ -30,24 +30,29 @@ const Work = () => {
   });
 
   return (
-    <div className="flex flex-col gap-48">
+    <div className="flex flex-col gap-48 max-sm:gap-36">
       <div
-        className="p-[50px] pr-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040]"
+        className="p-[50px] pr-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040] max-sm:w-full max-sm:p-[25px] max-sm:text-center max-sm:pt-20"
         ref={ref}
       >
-        <h3 className="text-5xl font-bold leading-[60px] tracking-normal text-left text-primary-200">
+        <h3 className="text-5xl font-bold leading-[60px] tracking-normal text-primary-200">
           Why choose us?
         </h3>
-        <p className="text-2xl font-medium leading-9 tracking-normal text-left text-brown">
+        <p className="text-2xl font-medium leading-9 tracking-normal text-brown max-sm:hidden">
           Our portfolio speaks for itself, we have worked across <br />
           several different blockchains. We ensure every customer <br />
           100% satisfaction before payment.
+        </p>
+        <p className="text-2xl font-medium leading-9 tracking-normal text-brown hidden max-sm:block">
+          Our portfolio speaks for itself, we have worked across several
+          different blockchains. We ensure every customer 100% satisfaction
+          before payment.
         </p>
         <motion.div
           initial="initial"
           animate={inView ? "animate" : "initial"}
           variants={stickerVariants}
-          className="absolute -right-56 -top-10"
+          className="absolute -right-56 -top-10 max-sm:-right-10 max-sm:-top-20"
         >
           <Image
             src="/assets/star.png"
@@ -55,26 +60,34 @@ const Work = () => {
             height={355}
             alt="star"
             quality={100}
+            className="max-sm:w-[200px] max-sm:h-auto"
           />
         </motion.div>
       </div>
       <div
-        className="p-[50px] pl-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040] self-end"
+        className="p-[50px] pl-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040] self-end max-sm:w-full max-sm:p-[25px] max-sm:text-center max-sm:pt-20"
         ref={ref2}
       >
-        <h3 className="text-5xl font-bold leading-[60px] tracking-normal text-left text-primary-200">
+        <h3 className="text-5xl font-bold leading-[60px] tracking-normal text-primary-200">
           Best team for you!
         </h3>
-        <p className="text-2xl font-medium leading-9 tracking-normal text-left text-brown max-w-[606px]">
+        <p className="text-2xl font-medium leading-9 tracking-normal text-brown max-w-[606px] max-sm:hidden">
           We’re a one-stop process to bringing your development <br /> to life,
           from the full design package, to development, to aftercare we have you
           covered.
         </p>
+
+        <p className="text-2xl font-medium leading-9 tracking-normal text-brown max-w-[606px] hidden max-sm:block">
+          We’re a one-stop process to bringing your development to life, from
+          the full design package, to development, to aftercare we have you
+          covered.
+        </p>
+
         <motion.div
           variants={stickerVariants}
           initial="initial"
           animate={inView2 ? "animate" : "initial"}
-          className="absolute -left-64 -top-[6.5rem]"
+          className="absolute -left-64 -top-[6.5rem] max-sm:-left-10 max-sm:-top-28"
         >
           <Image
             src="/assets/trophy.png"
@@ -82,6 +95,7 @@ const Work = () => {
             height={447}
             alt="star"
             quality={100}
+            className="max-sm:w-[200px] max-sm:h-auto"
           />
         </motion.div>
       </div>
