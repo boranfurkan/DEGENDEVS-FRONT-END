@@ -12,7 +12,7 @@ import CryptoSlider from "./CryptoSlider";
 const IntroSection = () => {
   return (
     <div
-      className={`h-screen w-full px-10 py-5 relative ${styles.bgAnimationColor} overflow-hidden`}
+      className={`h-screen w-full px-10 py-5 relative ${styles.bgAnimationColor} overflow-hidden max-sm:px-4 max-sm:h-max`}
     >
       <div className="absolute inline-flex flex-row inset-0 justify-center items-center space-x-4 top-[50px] z-0">
         <div className={`${styles.bigBubble} ${styles.animation1}`}></div>
@@ -20,9 +20,12 @@ const IntroSection = () => {
         <div className={`${styles.bigBubble} ${styles.animation3}`}></div>
       </div>
       <div className="relative z-10 w-full h-full">
-        <div className={`w-full h-full flex flex-col gap-24 z-10`}>
+        <div className={`w-full h-full flex flex-col gap-24 z-10 max-sm:gap-5`}>
           <Navbar />
-          <div className="flex items-center justify-center gap-28">
+          <div className="w-full items-center justify-center max-sm:flex hidden">
+            <Image src="/logo.png" alt="logo" width={120} height={86} />
+          </div>
+          <div className="flex items-center justify-center gap-28 max-sm:gap-10 max-sm:flex-col">
             <HeroText />
             <HeroIcons />
           </div>
