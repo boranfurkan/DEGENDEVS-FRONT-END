@@ -5,6 +5,7 @@ import HowItWorks from "@/components/sections/work/HowItWorks";
 import Work from "@/components/sections/work/Work";
 import Reviews from "@/components/sections/reviews/Reviews";
 import Footer from "@/components/Footer";
+import WhatWeWorkOn from "@/components/sections/work/WhatWeWorkOn";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           className="max-w-[1272px] flex flex-col gap-44 max-sm:w-full max-sm:gap-28"
         >
           <Work />
+          <WhatWeWorkOn />
           <HowItWorks />
           <ProjectsSlider />
         </section>
