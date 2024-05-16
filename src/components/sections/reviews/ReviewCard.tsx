@@ -29,7 +29,7 @@ const ReviewCard = ({
   return (
     <Link
       href={link}
-      className={`py-5 px-10 bg-cream flex-col gap-4 h-[261px] w-[410px] flex ${border} max-sm:w-full max-sm:h-[350px]`}
+      className={`py-5 px-10 bg-cream flex-col gap-4 h-[261px] w-[410px] flex ${border} max-xl:w-full max-sm:h-[350px]`}
       target="_blank"
     >
       <div className="flex flex-row items-center justify-start gap-1.5">
