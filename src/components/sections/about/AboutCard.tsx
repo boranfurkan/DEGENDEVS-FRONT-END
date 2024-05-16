@@ -31,7 +31,7 @@ const AboutCard = ({
 
   return (
     <div
-      className={`bg-cream px-24 py-12 rounded-[60px] flex flex-col gap-3 w-max shadow-[0px_5px_50px_0px_#00000040] max-sm:max-w-fit ${className}`}
+      className={`bg-cream px-24 py-12 rounded-[60px] flex flex-col gap-3 w-max shadow-[0px_5px_50px_0px_#00000040] max-xl:max-w-fit ${className}`}
     >
       <div className="flex flex-col gap-1.5">
         <span className="text-[64px] font-extrabold leading-[75px] tracking-normal text-center text-primary-200">
@@ -46,14 +46,14 @@ const AboutCard = ({
           {subtitle}
         </h6>
       </div>
-      <p className="text-xl font-medium leading-[30px] tracking-normal text-center text-brown max-sm:hidden">
+      <p className="text-xl font-medium leading-[30px] tracking-normal text-center text-brown max-xl:hidden">
         {content.split("\n").map((line, index) => (
           <span className="block" key={index}>
             {line}
           </span>
         ))}
       </p>
-      <p className="text-xl font-medium leading-[30px] tracking-normal text-center text-brown sm:hidden">
+      <p className="text-xl font-medium leading-[30px] tracking-normal text-center text-brown xl:hidden">
         {content}
       </p>
     </div>
