@@ -13,7 +13,7 @@ export const NavbarItems = [
   },
   {
     name: "Contact",
-    section: "contact",
+    section: "reviews",
   },
 ];
 
