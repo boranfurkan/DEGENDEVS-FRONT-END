@@ -17,10 +17,10 @@ const About = () => {
   });
 
   return (
-    <div className="flex flex-col gap-5 w-max max-sm:w-full" ref={ref}>
-      <div className="flex flex-row items-center justify-center gap-8 h-full max-sm:flex-col">
+    <div className="flex flex-col gap-5 w-max max-xl:w-full" ref={ref}>
+      <div className="flex flex-row items-center justify-center gap-8 h-full max-xl:flex-col">
         <motion.div
-          className="flex flex-col gap-5 h-full max-sm:w-full"
+          className="flex flex-col gap-5 h-full max-xl:w-full"
           initial={{ opacity: 0, y: -50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
@@ -39,7 +39,7 @@ const About = () => {
             initial={{ opacity: 0, y: -50 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1 }}
-            className="max-sm:w-full"
+            className="max-xl:w-full"
           >
             <AboutCard
               {...AboutCardsContent[0]}
@@ -48,7 +48,7 @@ const About = () => {
           </motion.div>
         </motion.div>
         <motion.div
-          className="flex flex-col h-full gap-4 justify-between max-sm:items-center max-sm:justify-center max-sm:w-full"
+          className="flex flex-col h-full gap-4 justify-between max-sm:items-center max-sm:justify-center max-xl:w-full max-xl:flex-col"
           initial={{ opacity: 0, x: 50 }}
           animate={inView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.5 }}
@@ -74,24 +74,24 @@ const About = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 1 }}
-            className="max-sm:w-full "
+            className="max-xl:w-full"
           >
             <AboutCard
               {...AboutCardsContent[1]}
-              className="px-[102px] py-[35px] max-sm:px-12 max-sm:py-5"
+              className="px-[102px] py-[35px] max-sm:px-12 max-sm:py-5 max-xl:max-w-full max-xl:w-full"
             />
           </motion.div>
         </motion.div>
       </div>
       <div
-        className="flex flex-row items-center justify-center gap-5 max-sm:flex-col"
+        className="flex flex-row items-center justify-center gap-5 max-xl:flex-col "
         ref={ref2}
       >
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={inView2 ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
-          className="max-sm:w-full "
+          className="max-xl:w-full"
         >
           <AboutCard
             {...AboutCardsContent[2]}
@@ -102,11 +102,11 @@ const About = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={inView2 ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1 }}
-          className="flex-grow max-sm:w-full"
+          className="flex-grow max-xl:w-full"
         >
           <AboutCard
             {...AboutCardsContent[3]}
-            className="px-36 py-[65px] h-full items-center justify-center !w-full max-sm:px-12 max-sm:py-5"
+            className="px-36 py-[65px] h-full items-center justify-center !w-full max-sm:px-12 max-sm:py-5 max-xl:py-[50px] max-xl:px-[70px] max-xl:max-w-full"
           />
         </motion.div>
       </div>
