@@ -108,7 +108,7 @@ const Navbar = () => {
       </motion.div>
     </div>
   ) : (
-    <div className="mockup-window w-full h-max relative glass max-sm:py-6">
+    <div className="mockup-window w-full h-max relative glass max-sm:py-6 min-h-[48px]">
       <div className="absolute inset-0 w-full h-max top-[0.7rem]">
         <nav
           ref={navRef}
