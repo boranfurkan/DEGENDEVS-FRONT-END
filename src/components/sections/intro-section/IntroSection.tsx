@@ -25,7 +25,7 @@ const IntroSection = () => {
           <div className="w-full items-center justify-center max-sm:flex hidden">
             <Image src="/logo.png" alt="logo" width={120} height={86} />
           </div>
-          <div className="flex items-center justify-center gap-28 max-sm:gap-10 max-sm:flex-col">
+          <div className="flex items-center justify-center gap-28 max-sm:gap-10 max-md:flex-col">
             <HeroText />
             <HeroIcons />
           </div>
