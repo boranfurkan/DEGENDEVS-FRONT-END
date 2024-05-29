@@ -240,6 +240,25 @@ export default function ProjectsSlider() {
               </div>
             </div>
           </SwiperSlide>
+
+          <SwiperSlide className="shadow-[0px_5px_50px_0px_#00000080]">
+            <div className="image-container">
+              <Image
+                src="/assets/projects/aion2.png"
+                alt="Project Description"
+                layout="fill"
+                objectFit="cover"
+              />
+              <div className="overlay">
+                <h3 className="text-2xl font-extrabold leading-9 tracking-normal text-left text-primary-200 uppercase">
+                  AION
+                </h3>
+                <p className="overlay-text">
+                  Our design team designed this new unique web3 poker platform.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </motion.div>
     </div>
