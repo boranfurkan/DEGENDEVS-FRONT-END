@@ -83,7 +83,7 @@ const HowItWorks = () => {
       <h3 className="text-[64px] font-bold leading-[79px] tracking-normal text-center">
         How it works?
       </h3>
-      <div className="flex flex-row gap-24 items-center justify-between max-sm:flex-col max-sm:gap-12">
+      <div className="flex flex-row gap-24 items-center justify-between max-md:flex-col max-md:gap-12">
         <DocumentAnimation />
         <div className="flex flex-col gap-14" ref={ref}>
           <motion.div
