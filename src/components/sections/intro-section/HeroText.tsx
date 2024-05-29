@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroText = () => {
   return (
-    <div className="flex flex-col items-center gap-2 max-sm:text-center">
+    <div className="flex flex-col items-center gap-2 max-md:text-center">
       <h2 className="font-bold text-8xl">WE CAN BUILD</h2>
       <div className="min-h-10 max-sm:min-h-20">
         <TypeAnimation
