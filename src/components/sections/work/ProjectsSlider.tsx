@@ -35,7 +35,7 @@ export default function ProjectsSlider() {
           grabCursor={true}
           navigation={true}
           modules={[Navigation, Autoplay, EffectCards]}
-          className="mySwiper max-sm:scale-[0.36]"
+          className="mySwiper max-sm:scale-[0.36] max-md:scale-[0.60]"
           autoplay={{
             delay: 5000,
             disableOnInteraction: true,
