@@ -30,9 +30,9 @@ const Work = () => {
   });
 
   return (
-    <div className="flex flex-col gap-48 max-sm:gap-36">
+    <div className="flex flex-col gap-48 max-md:gap-36">
       <div
-        className="p-[50px] pr-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040] max-xl:w-full max-sm:p-[25px] max-sm:text-center max-sm:pt-20"
+        className="p-[50px] pr-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040] max-xl:w-full max-md:p-[25px] max-md:text-center max-md:pt-20"
         ref={ref}
       >
         <h3 className="text-5xl font-bold leading-[60px] tracking-normal text-primary-200">
@@ -52,7 +52,7 @@ const Work = () => {
           initial="initial"
           animate={inView ? "animate" : "initial"}
           variants={stickerVariants}
-          className="absolute -right-56 -top-10 max-sm:-right-10 max-sm:-top-20  max-xl:-right-16"
+          className="absolute -right-56 -top-10 max-md:-right-10 max-md:-top-20  max-xl:-right-16"
         >
           <Image
             src="/assets/star.png"
@@ -60,12 +60,12 @@ const Work = () => {
             height={355}
             alt="star"
             quality={100}
-            className="max-sm:w-[200px] max-sm:h-auto"
+            className="max-md:w-[200px] max-md:h-auto"
           />
         </motion.div>
       </div>
       <div
-        className="p-[50px] pl-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040] self-end max-xl:w-full max-sm:p-[25px] max-sm:text-center max-sm:pt-20 max-xl:text-right"
+        className="p-[50px] pl-[180px] bg-cream rounded-[60px] w-max flex flex-col gap-5 relative shadow-[0px_5px_50px_0px_#00000040] self-end max-xl:w-full max-md:p-[25px] max-md:text-center max-md:pt-20 max-xl:text-right"
         ref={ref2}
       >
         <h3 className="text-5xl font-bold leading-[60px] tracking-normal text-primary-200">
@@ -87,7 +87,7 @@ const Work = () => {
           variants={stickerVariants}
           initial="initial"
           animate={inView2 ? "animate" : "initial"}
-          className="absolute -left-64 -top-[6.5rem] max-sm:-left-10 max-sm:-top-28 max-xl:-left-8"
+          className="absolute -left-64 -top-[6.5rem] max-md:-left-10 max-md:-top-28 max-xl:-left-8"
         >
           <Image
             src="/assets/trophy.png"
@@ -95,7 +95,7 @@ const Work = () => {
             height={447}
             alt="star"
             quality={100}
-            className="max-sm:w-[200px] max-sm:h-auto"
+            className="max-md:w-[200px] max-md:h-auto"
           />
         </motion.div>
       </div>
