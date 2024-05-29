@@ -17,7 +17,7 @@ const Footer = () => {
 
           <div className="flex flex-col gap-3 max-sm:items-center max-sm:justify-center">
             <div className="flex items-center justify-start gap-4 w-max">
-              <Link href="degendevs">
+              <Link href="https://x.com/devdegens" target="_blank">
                 <Image
                   src="/icons/socials/x.svg"
                   alt="twitter"
@@ -25,7 +25,10 @@ const Footer = () => {
                   height={30}
                 />
               </Link>
-              <Link href="degendevs">
+              <Link
+                href="https://web.telegram.org/k/#@JamesStGhost"
+                target="_blank"
+              >
                 <Image
                   src="/icons/socials/telegram.svg"
                   alt="telegram"
