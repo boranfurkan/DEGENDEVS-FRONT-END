@@ -7,7 +7,7 @@ import HeroIcons from "./HeroIcons";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import CryptoSlider from "./CryptoSlider";
+import AnimatedTicker from "./AnimatedTicker";
 
 const IntroSection = () => {
   return (
@@ -61,7 +61,7 @@ const IntroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.1 }}
             >
-              <CryptoSlider />
+              <AnimatedTicker />
             </motion.div>
           </motion.div>
         </div>
