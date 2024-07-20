@@ -15,7 +15,7 @@ const Reviews = () => {
   };
 
   return (
-    <div className="flex flex-col gap-10 w-full max-sm:-mt-[10rem]">
+    <div className="flex flex-col gap-10 w-full ">
       <h3 className="text-[64px] font-bold leading-[79px] tracking-normal text-center">
         What clients say about us
       </h3>
