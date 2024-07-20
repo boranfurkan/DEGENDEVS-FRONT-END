@@ -92,4 +92,20 @@ export const Reviews = [
       "A shout out to the @DevDegens team for making all of this possible, meeting all our needs with extreme care and agility. We are very grateful! 💜💛",
     link: "https://twitter.com/thespritebox/status/1701581802094178380?s=46&t=1EGdtvDcdkZmcj0qCobSxw",
   },
+  {
+    name: "Snow",
+    role: "Creator of Claynosaurz",
+    img: "/assets/reviews/snow.jpg",
+    review:
+      "Just want to give a shoutout to  @devdegens real quick! We have been working on a huge development over the last couple months, and they have been more than generous in their time and help. Their work experience and knowledge exceeded our expectations. Quality deserves recognition in this space so if you’re looking for a dev team, don’t hesitate to reach out.",
+    link: "https://x.com/iamhimsnow/status/1807473417492545861?s=46&t=1EGdtvDcdkZmcj0qCobSxw",
+  },
+  {
+    name: "Paul Pinc",
+    role: "Creator of ROILabsNFT",
+    img: "/assets/reviews/paul.jpg",
+    review:
+      "Huge shoutout to  @DevDegens for building our Solana Revenue Share Tracker for @ROILabsNFT The devs were super friendly and receptive to our feedback, implementing changes quickly. Highly recommend them and look forward to a long-term collaboration! 🙌",
+    link: "https://x.com/paul_pinc/status/1805204593451696554?s=46&t=1EGdtvDcdkZmcj0qCobSxw",
+  },
 ];
