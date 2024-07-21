@@ -10,6 +10,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "DegenDevs",
   description: "All In One Web3 Development Studio",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
