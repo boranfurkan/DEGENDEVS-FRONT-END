@@ -1,17 +1,18 @@
-import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Roboto } from 'next/font/google';
+import './globals.css';
+import Providers from '@/providers';
 
 const roboto = Roboto({
-  subsets: ["latin"],
-  weight: ["100", "300", "400", "500", "700", "900"],
+  subsets: ['latin'],
+  weight: ['100', '300', '400', '500', '700', '900'],
 });
 
 export const metadata: Metadata = {
-  title: "DegenDevs",
-  description: "All In One Web3 Development Studio",
+  title: 'DegenDevs',
+  description: 'All In One Web3 Development Studio',
   icons: {
-    icon: "/logo.png",
+    icon: '/logo.png',
   },
 };
 
@@ -22,7 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} text-white`}>{children}</body>
+      <body className={`${roboto.className} text-white`}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }

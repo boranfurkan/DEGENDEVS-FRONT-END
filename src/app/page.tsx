@@ -1,11 +1,12 @@
-import ParallaxProjectsSlider from "@/components/sections/work/ProjectsSlider";
-import About from "@/components/sections/about/About";
-import IntroSection from "@/components/sections/intro-section/IntroSection";
-import HowItWorks from "@/components/sections/work/HowItWorks";
-import Work from "@/components/sections/work/Work";
-import Reviews from "@/components/sections/reviews/Reviews";
-import Footer from "@/components/Footer";
-import WhatWeWorkOn from "@/components/sections/work/WhatWeWorkOn";
+import ParallaxProjectsSlider from '@/components/sections/work/ProjectsSlider';
+import About from '@/components/sections/about/About';
+import IntroSection from '@/components/sections/intro-section/IntroSection';
+import HowItWorks from '@/components/sections/work/HowItWorks';
+import Work from '@/components/sections/work/Work';
+import Reviews from '@/components/sections/reviews/Reviews';
+import Footer from '@/components/Footer';
+import WhatWeWorkOn from '@/components/sections/work/WhatWeWorkOn';
+import ProjectGrid from '@/components/sections/work/ProjectGrid';
 
 const Home: React.FC = () => {
   return (
@@ -29,7 +30,7 @@ const Home: React.FC = () => {
         </div>
 
         <section id="projects" className="w-full">
-          <ParallaxProjectsSlider />
+          <ProjectGrid />
         </section>
 
         <div className="px-[7.5rem] flex flex-col gap-44 justify-center items-center w-full max-sm:px-5 max-sm:gap-28 max-xl:px-10 max-xl:gap-36">
