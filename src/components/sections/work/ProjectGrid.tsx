@@ -162,7 +162,7 @@ export default function ProjectGrid() {
                   />
                 )}
                 <motion.div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent flex flex-col justify-end items-center opacity-100 transition-opacity duration-500 p-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">
+                  <h3 className="text-2xl font-bold text-white mb-2 uppercase">
                     {project.title}
                   </h3>
                   <p className="text-white text-center">
@@ -209,18 +209,21 @@ export default function ProjectGrid() {
                 {/* Close Button */}
                 <button
                   onClick={closeModal}
-                  className="absolute top-2 right-2 text-primary-200 rounded-full bg-primary-500 z-50 text-4xl"
+                  className="absolute top-2 right-2 text-cream rounded-full bg-primary-500 z-50 text-3xl font-thin font-mono"
                 >
                   ✖
                 </button>
 
-                <div className="w-full h-[400px] lg:h-[600px] relative">
+                <div
+                  className="relative w-full"
+                  style={{ paddingBottom: '56.25%' }}
+                >
                   {projects[selectedProject].isVideo ? (
                     <video
                       key={projects[selectedProject].src}
                       controls={false}
                       autoPlay
-                      className="w-full h-full object-cover"
+                      className="absolute top-0 left-0 w-full h-full object-contain"
                       loop
                       playsInline
                       muted
@@ -235,11 +238,11 @@ export default function ProjectGrid() {
                       src={projects[selectedProject].src}
                       alt={projects[selectedProject].title}
                       layout="fill"
-                      objectFit="cover"
-                      className="rounded-lg"
+                      className="absolute top-0 left-0 w-full h-full rounded-lg"
                     />
                   )}
                 </div>
+
                 <div className="p-4 text-center">
                   <h3 className="text-2xl font-bold mb-4 text-white uppercase">
                     {projects[selectedProject].title}
