@@ -25,7 +25,6 @@ const Home: React.FC = () => {
           >
             <Work />
             <WhatWeWorkOn />
-            <HowItWorks />
           </section>
         </div>
 
