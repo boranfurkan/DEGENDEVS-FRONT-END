@@ -1,8 +1,8 @@
-"use client";
-import React, { useEffect, useRef } from "react";
-import { Reviews as ReviewsData } from "@/constants";
-import Slider from "infinite-react-carousel";
-import ReviewCard from "./ReviewCard";
+'use client';
+import React, { useEffect, useRef } from 'react';
+import { Reviews as ReviewsData } from '@/constants';
+import Slider from 'infinite-react-carousel';
+import ReviewCard from './ReviewCard';
 
 const Reviews = () => {
   const settings = {
@@ -11,7 +11,7 @@ const Reviews = () => {
     slidesPerRow: 1,
     slidesToShow: 1,
     dots: true,
-    className: "!w-full",
+    className: '!w-full',
   };
 
   return (
@@ -22,25 +22,31 @@ const Reviews = () => {
 
       <Slider {...settings} className="max-sm:hidden">
         <div className="!flex items-center justify-center gap-10 w-full">
-          <ReviewCard {...ReviewsData[3]} borderType={"middle"} />
-          <ReviewCard {...ReviewsData[0]} borderType={"middle"} />
+          <ReviewCard {...ReviewsData[3]} borderType={'middle'} />
+          <ReviewCard {...ReviewsData[0]} borderType={'middle'} />
         </div>
         <div className="!flex items-center justify-center gap-10 w-full">
-          <ReviewCard {...ReviewsData[2]} borderType={"middle"} />
-          <ReviewCard {...ReviewsData[1]} borderType={"middle"} />
+          <ReviewCard {...ReviewsData[2]} borderType={'middle'} />
+          <ReviewCard {...ReviewsData[1]} borderType={'middle'} />
         </div>
         <div className="!flex items-center justify-center gap-10 w-full">
-          <ReviewCard {...ReviewsData[4]} borderType={"middle"} />
-          <ReviewCard {...ReviewsData[5]} borderType={"middle"} />
+          <ReviewCard {...ReviewsData[4]} borderType={'middle'} />
+          <ReviewCard {...ReviewsData[5]} borderType={'middle'} />
+        </div>
+        <div className="!flex items-center justify-center gap-10 w-full">
+          <ReviewCard {...ReviewsData[6]} borderType={'middle'} />
+          <ReviewCard {...ReviewsData[7]} borderType={'middle'} />
         </div>
       </Slider>
 
       <Slider {...settings} className="sm:hidden">
-        <ReviewCard {...ReviewsData[3]} borderType={"middle"} />
-        <ReviewCard {...ReviewsData[0]} borderType={"middle"} />
-        <ReviewCard {...ReviewsData[2]} borderType={"middle"} />
-        <ReviewCard {...ReviewsData[4]} borderType={"middle"} />
-        <ReviewCard {...ReviewsData[5]} borderType={"middle"} />
+        <ReviewCard {...ReviewsData[3]} borderType={'middle'} />
+        <ReviewCard {...ReviewsData[0]} borderType={'middle'} />
+        <ReviewCard {...ReviewsData[2]} borderType={'middle'} />
+        <ReviewCard {...ReviewsData[4]} borderType={'middle'} />
+        <ReviewCard {...ReviewsData[5]} borderType={'middle'} />
+        <ReviewCard {...ReviewsData[6]} borderType={'middle'} />
+        <ReviewCard {...ReviewsData[7]} borderType={'middle'} />
       </Slider>
     </div>
   );

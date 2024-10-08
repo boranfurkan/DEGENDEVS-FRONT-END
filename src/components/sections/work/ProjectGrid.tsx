@@ -10,12 +10,14 @@ const projects = [
   {
     src: '/assets/projects/waka-flocka.png',
     title: 'Waka Flocka',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description:
+      'Built all the front end development out for famous American Rapper Waka Flocka Flame.',
   },
   {
     src: '/assets/projects/btc-keys.png',
     title: 'BTC Keys',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description:
+      'Showcasing our development team working on the BTC blockchain, DegenDevs handled UI, Fe, BE and Smart Contracts for BTCKeys.',
   },
   {
     src: '/assets/videos/swag-logo.mp4',
@@ -52,12 +54,8 @@ const projects = [
   {
     src: '/assets/projects/restate.png',
     title: 'Restate',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
-    src: '/assets/projects/visionarystu.png',
-    title: 'Vision Artystu',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description:
+      'Built a unique real estate platform for Restate, cross over from Web3 into a Web2 business.',
   },
 ];
 
